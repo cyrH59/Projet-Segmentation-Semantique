@@ -41,15 +41,13 @@ for k in range(5):
     
     plt.cla()
     plt.imshow(result)
+    plt.pause(0.01)
     # fig = plt.figure()
     # ax  = plt.subplot(111)
     # im  = ax.imshow(result)
-    
+
     #   # Change image contents
     # newImData = np.array([[2,2],[2,2]])
     # im.set_data( newImData )
     # im.draw()
-
-
-
-    
+plt.show()
